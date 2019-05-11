@@ -28,7 +28,7 @@ Client.on("message", async (message) => {
 	if (command === "say") {
 		message.delete()
                 const embed = new Discord.RichEmbed()
-		.setColor(RANDOM)
+		.setColor(random)
 		.setDescription(args.join(" "));
 		message.channel.send({embed})
 	} else
