@@ -4,7 +4,8 @@
   "description": "Discord.js bot on Heroku",
   "main": "bot.js",
   "dependencies": {
-    "discord.js": "^11.3.2"
+    "discord.js": "^11.3.2",
+    "superagent": "^1.2.0"
   },
 
   "keywords": [
