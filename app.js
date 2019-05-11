@@ -6,26 +6,11 @@ const prefix = "!"
 
 Client.on("ready", () => {
 	console.log("online");
-	Client.user.setPresence({ game: { name: `Hello world`, type: 0} });
+	Client.user.setPresence({ game: { name: `MTools`, type: 0} });
 });
 
 // welcome message
 
-Client.on("guildMemberAdd", member => {
-	   const welcomeChannel = member.guild.channels.find('name', 'welcome');
-                if (!welcomeChannel === null) return;
-   client.channels.get(welcomeChannel.id).send("Welcome to: " + member.guild.name + " Hope you enjoy it here")
-});
-
-Client.on("guildMemberRemove", member => {
-   const welcomeChannel = member.guild.channels.find('name', 'welcome');
-                if (!welcomeChannel === null) return;
-   client.channels.get(welcomeChannel.id).send("Goodbye: " + member.user.username + " from " + member.guild.name)
-});
-
-Client.on("guildCreate", guild => {
-	console.log("Some one added the test bot to a server created by: " + guild.owner.user.username)
-});
 
 Client.on("message", async (message) => {
 	if (message.author.bot) return;
@@ -87,4 +72,5 @@ Client.on("message", async (message) => {
 
 });
 
-Client.login("MzQxNDc5NTYwNjA2NjQ2Mjcz.DGBrIg._GlRaK0EnvLZv0_CnYTtuNOhvFo"); //replace with your token dont share yours.
+Client.login("NTc1MDczNzc2NTkzNjY2MDQ5.XNctTw.XIkGhErSt050WB8OFHRP3pDTnsk
+"); //replace with your token dont share yours.
