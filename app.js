@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const superagent = require("superagent");
 const Client = new Discord.Client();
-const OwnerID = "130515926117253122";
+const OwnerID = "537147937583529994";
 const prefix = "!"
 
 Client.on("ready", () => {
@@ -72,5 +72,4 @@ Client.on("message", async (message) => {
 
 });
 
-Client.login("NTc1MDczNzc2NTkzNjY2MDQ5.XNctTw.XIkGhErSt050WB8OFHRP3pDTnsk
-"); //replace with your token dont share yours.
+Client.login("NTc1MDczNzc2NTkzNjY2MDQ5.XNctTw.XIkGhErSt050WB8OFHRP3pDTnsk"); //replace with your token dont share yours.
