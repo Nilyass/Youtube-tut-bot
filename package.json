@@ -1,0 +1,20 @@
+{
+  "name": "discord.js-heroku",
+  "version": "1.0.0",
+  "description": "Discord.js bot on Heroku",
+  "main": "bot.js",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  },
+
+  "keywords": [
+    "heroku",
+    "discord.js"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/synicalsyntax/discord.js-heroku/issues"
+  },
+  "homepage": "https://github.com/synicalsyntax/discord.js-heroku#readme"
+}
