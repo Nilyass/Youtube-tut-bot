@@ -53,7 +53,7 @@ Client.on("message", async (message) => {
 		   .setTitle("Important Announcement:")
 		   .setDescription(text);
 		   message.channel.send("@everyone")
-		   message.channel.send({embed})
+		   message.channel.send(text)
 	   }
    } else
 
